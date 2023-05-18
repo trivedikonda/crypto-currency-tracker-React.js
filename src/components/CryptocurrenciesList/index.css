@@ -1,0 +1,46 @@
+/* Write your CSS code here */
+.currency-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  margin: 30px;
+  padding: 30px;
+}
+
+.main-heading {
+  font-size: 30px;
+  color: #00e7ff;
+}
+
+.list-container {
+  width: 90%;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  border: 5px solid #00e7ff;
+  border-radius: 7px;
+}
+
+.heading {
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.headings-list {
+  background-color: #092e33;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.euro-and-usd {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 30%;
+}
